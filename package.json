@@ -9,15 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "deta": "^1.1.0",
+    "ipfs-http-client": "^56.0.3",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "sha3": "^2.1.4"
   },
   "devDependencies": {
-    "@types/node": "17.0.31",
+    "@types/node": "^17.0.31",
     "@types/react": "18.0.8",
     "@types/react-dom": "18.0.3",
-    "eslint": "8.14.0",
+    "eslint": "^8.14.0",
     "eslint-config-next": "12.1.6",
     "typescript": "4.6.4"
   }
